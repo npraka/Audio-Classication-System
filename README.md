@@ -1,5 +1,8 @@
 An  audio  classification  system  that  involves  audio  signal processing  and  data mining.  
 This program uses a  data  mining algorithm to build a model (or models) on this data which includes 20 sound files. 
+by: Neil Prakasam, Conor Van Achte, Jason Kozodoy 
+
+
 
 1. How to run the code, how to use the system, functionalities of each program file
 Double click the jar file to run the program. Don’t take the jar file out of the Assignment4
