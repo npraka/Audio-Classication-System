@@ -1,5 +1,6 @@
 An  audio  classification  system  that  involves  audio  signal processing  and  data mining.  
 This program uses a  data  mining algorithm to build a model (or models) on this data which includes 20 sound files. 
+
 by: Neil Prakasam, Conor Van Achte, Jason Kozodoy 
 
 
