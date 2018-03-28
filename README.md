@@ -30,18 +30,22 @@ J48 pruned tree
 ------------------
 Chunk Size <= 128034: MUSIC (8.0)
 Chunk Size > 128034
+
 | Chunk Size <= 128036
 | | Maximum Amplitude <= 2749: SPEECH (6.0)
 | | Maximum Amplitude > 2749
 | | | Mean <= 0.000064: SPEECH (13.0/5.0)
 | | | Mean > 0.000064: MUSIC (3.0)
+
 | Chunk Size > 128036
 | | Mean <= -0.0003: SPEECH (5.0)
 | | Mean > -0.0003: MUSIC (5.0/1.0)
+
 Number of Leaves :  6
 Size of the tree : 11
 Time taken to build model: 0.01 seconds
 Time taken to test model on training data: 0 seconds
+
 === Error on training data ===
 Correctly Classified Instances 34 85 %
 Incorrectly Classified Instances 6 15 %
@@ -51,6 +55,7 @@ Root mean squared error 0.3113
 Relative absolute error 38.7692 %
 Root relative squared error 62.2649 %
 Total Number of Instances 40 
+
 === Detailed Accuracy By Class ===
 TP Rate FP Rate Precision Recall F-Measure ROC Area Class
 0.75 0.05 0.938 0.75 0.833 0.933 MUSIC
@@ -60,6 +65,7 @@ Weighted Avg. 0.85 0.15 0.865 0.85 0.848 0.932
 a b <-- classified as
 15 5 | a = MUSIC
 1 19 | b = SPEECH
+
 === Stratified cross-validation ===
 Correctly Classified Instances 25 62.5 %
 Incorrectly Classified Instances 15 37.5 %
@@ -69,11 +75,13 @@ Root mean squared error 0.5503
 Relative absolute error 80.9405 %
 Root relative squared error 110.0605 %
 Total Number of Instances 40 
+
 === Detailed Accuracy By Class ===
 TP Rate FP Rate Precision Recall F-Measure ROC Area Class
 0.55 0.3 0.647 0.55 0.595 0.631 MUSIC
 0.7 0.45 0.609 0.7 0.651 0.631 SPEECH
 Weighted Avg. 0.625 0.375 0.628 0.625 0.623 0.631
+
 === Confusion Matrix ===
 a b <-- classified as
 11 9 | a = MUSIC
@@ -97,6 +105,7 @@ Machine linear: showing attribute weights, not support vectors.
 Number of kernel evaluations: 306 (69.308% cached)
 Time taken to build model: 0.04 seconds
 Time taken to test model on training data: 0 seconds
+
 === Error on training data ===
 Correctly Classified Instances 28 70 %
 Incorrectly Classified Instances 12 30 %
@@ -106,6 +115,7 @@ Root mean squared error 0.5477
 Relative absolute error 60 %
 Root relative squared error 109.5445 %
 Total Number of Instances 40 
+
 === Confusion Matrix ===
 a b <-- classified as
 14 6 | a = MUSIC
