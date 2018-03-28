@@ -120,6 +120,7 @@ Total Number of Instances 40
 a b <-- classified as
 14 6 | a = MUSIC
 6 14 | b = SPEECH
+
 === Stratified cross-validation ===
 Correctly Classified Instances 24 60 %
 Incorrectly Classified Instances 16 40 %
@@ -129,6 +130,7 @@ Root mean squared error 0.6325
 Relative absolute error 80 %
 Root relative squared error 126.4911 %
 Total Number of Instances 40 
+
 === Confusion Matrix ===
 a b <-- classified as
 14 6 | a = MUSIC
@@ -137,6 +139,7 @@ Zero R:
 ZeroR predicts class value: MUSIC
 Time taken to build model: 0 seconds
 Time taken to test model on training data: 0 seconds
+
 === Error on training data ===
 Correctly Classified Instances 20 50 %
 Incorrectly Classified Instances 20 50 %
@@ -146,6 +149,7 @@ Root mean squared error 0.5
 Relative absolute error 100 %
 Root relative squared error 100 %
 Total Number of Instances 40 
+
 === Confusion Matrix ===
 a b <-- classified as
 20 0 | a = MUSIC
@@ -159,6 +163,7 @@ Root mean squared error 0.5
 Relative absolute error 100 %
 Root relative squared error 100 %
 Total Number of Instances 40 
+
 === Confusion Matrix ===
 a b <-- classified as
 20 0 | a = MUSIC
@@ -168,7 +173,9 @@ Naive Bayes Classifier
 Class
 Attribute MUSIC SPEECH
 (0.5) (0.5)
+
 ====================================================
+
 Audio Format
 mean 1 1
 std. dev. 0.0017 0.0017
@@ -266,6 +273,7 @@ weight sum 20 20
 precision 394.894 394.894
 Time taken to build model: 0.01 seconds
 Time taken to test model on training data: 0.01 seconds
+
 === Error on training data ===
 Correctly Classified Instances 25 62.5 %
 Incorrectly Classified Instances 15 37.5 %
@@ -275,15 +283,18 @@ Root mean squared error 0.5464
 Relative absolute error 72.9809 %
 Root relative squared error 109.285 %
 Total Number of Instances 40 
+
 === Detailed Accuracy By Class ===
 TP Rate FP Rate Precision Recall F-Measure ROC Area Class
 0.9 0.65 0.581 0.9 0.706 0.783 MUSIC
 0.35 0.1 0.778 0.35 0.483 0.783 SPEECH
 Weighted Avg. 0.625 0.375 0.679 0.625 0.594 0.783
+
 === Confusion Matrix ===
 a b <-- classified as
 18 2 | a = MUSIC
 13 7 | b = SPEECH
+
 === Stratified cross-validation ===
 Correctly Classified Instances 20 50 %
 Incorrectly Classified Instances 20 50 %
@@ -293,11 +304,13 @@ Root mean squared error 0.6256
 Relative absolute error 93.8554 %
 Root relative squared error 125.127 %
 Total Number of Instances 40 
+
 === Detailed Accuracy By Class ===
 TP Rate FP Rate Precision Recall F-Measure ROC Area Class
 0.7 0.7 0.5 0.7 0.583 0.555 MUSIC
 0.3 0.3 0.5 0.3 0.375 0.555 SPEECH
 Weighted Avg. 0.5 0.5 0.5 0.5 0.479 0.555
+
 === Confusion Matrix ===
 a b <-- classified as
 14 6 | a = MUSIC
